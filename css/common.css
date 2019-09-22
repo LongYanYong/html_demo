@@ -1,0 +1,228 @@
+/*flex布局单样式*/
+.flex {
+    display: flex;
+}
+.flex-ju-center {
+    display: flex;
+    justify-content: center;
+}
+.flex-ju-end {
+    display: flex;
+    justify-content: end;
+}
+.flex-al-center {
+    display: flex;
+    align-items: center;
+}
+.flex-ju-al-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-al-end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.flex-ju-al-end {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+/*flex布局双项目*/
+.flex-ju-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-1 {
+    flex: 1;
+}
+/*元素布局*/
+.d-block {
+    display: block;
+}
+.d-inline {
+    display: inline;
+}
+.d-inline-block {
+    display: inline-block;
+}
+/*定位*/
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.position-fixed {
+    position: fixed;
+}
+/*大小*/
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+   width: 50%;
+}
+.w-25 {
+    width: 25%;
+}
+.w-1200 {
+    width: 1200px;
+}
+.w-1920 {
+    width: 1920px;
+}
+.h-700 {
+    height: 700px;
+}
+/*外边距*/
+.ml-4 {
+    margin-left: 4px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.mt-4 {
+    margin-top: 4px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mr-4 {
+    margin-right: 4px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mb-4 {
+    margin-bottom: 4px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+/*n内边距*/
+。pl-4 {
+    padding-left: 4px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.pt-4 {
+    padding-top: 4px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pr-4 {
+    padding-right: 4px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.pb-4 {
+    padding-bottom: 4px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+/*边框*/
+.border-0 {
+    border: 0;
+}
+.border-1 {
+    border: 1px solid #7B93A7;
+}
+.border-2 {
+    border: 2px solid #7B93A7;
+}
+.border-3 {
+    border: 3px solid #7B93A7;
+}
+.border-left {
+    border-left: 1px solid #7B93A7;
+}
+.border-top {
+    border-top: 1px solid #7B93A7;
+}
+.border-right {
+    border-right: 1px solid #7B93A7;
+}
+.border-bottom {
+    border-bottom: 1px solid #7B93A7;
+}
+.radius-2 {
+    border-radius: 2px;
+}
+.radius-4 {
+    border-radius: 4px;
+}
+.radius-50 {
+    border-radius: 50%;
+}
+/*颜色*/
+.color-white {
+    color: #ffffff;
+}
+.color-black {
+    color: #000000;
+}
+.color-67A8F3 {
+    color: #67A8F3;
+}
+/*背景颜色*/
+.bg-00AFEF {
+    background-color: #00AFEF;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+/*字体大小*/
+.text-12 {
+    font-size: 12px;
+    line-height: 18px;
+}
+.text-14 {
+    font-size: 14px;
+    line-height: 22px;
+}
+.text-16 {
+    font-size: 16px;
+    line-height: 28px;
+}
+.text-20 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+

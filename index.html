@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB 官网首页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .aa li{
+            width: 95px;
+            margin-right: 105px;
+        }
+        .aa li:last-child{
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body>
+<!--头部-->
+<div class="w-1920 h-700 bg-00AFEF">
+    <div class="w-1920 h-80 flex-ju-between">
+        <div class="mt-30 ml-227">
+            <div class="img1"></div>
+        </div>
+        <div class="flex">
+            <ul class="flex-al-center text-20 mt-40 mr-259 aa js-title">
+            </ul>
+        </div>
+    </div>
+    <div class="w-679 h-281 border-1 mb-174 mr-598">
+        <p class="text-20">智慧工厂BI解决方案</p>
+        <p>intelligent Factroy</p>
+        <p>为现代工厂提供信息化解决，帮助企业加强信息管理和服务；提高生产过程中的可控性，减少生产线上人工干预，即使正确地采集生产线上的数据</p>
+    </div>
+</div>
+<script>
+    const arr = ['项目', '产品&服务', '客户&案列', '关于我们', '联系我们'];
+    let _html = '';
+    for (let i = 0; i < arr.length; i++) {
+        _html += '<li>' + arr[i] + '</li>'
+    }
+   document.getElementsByClassName('js-title')[0].innerHTML = _html;
+</script>
+</body>
+</html>
