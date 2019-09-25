@@ -1,0 +1,37 @@
+.service {
+    width: 100%;
+    height: 400px;
+    background-image: url("../../img/img1.png");
+}
+.title {
+    width: 233px;
+    height: 33px;
+}
+.pt-63 {
+    padding-top: 63px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-109 {
+    margin-top: 109px;
+}
+.mb-66 {
+    margin-bottom: 66px;
+}
+.flow-icon li {
+    width: 60px;
+    height: 61px;
+    background-color: #ff0000;
+    margin-right: 150px;
+    border-radius: 10px;
+}
+.flow-icon li:last-child {
+    margin-right: 0;
+}
+#flow li {
+    margin-right: 150px;
+}
+#flow li:last-child {
+    margin-right: 0;
+}

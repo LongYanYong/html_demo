@@ -48,13 +48,13 @@
     display: inline-block;
 }
 /*定位*/
-.position-relative {
+.relative {
     position: relative;
 }
-.position-absolute {
+.absolute {
     position: absolute;
 }
-.position-fixed {
+.fixed {
     position: fixed;
 }
 /*大小*/
@@ -67,30 +67,45 @@
 .w-25 {
     width: 25%;
 }
-.w-1200 {
-    width: 1200px;
-}
-.w-1920 {
-    width: 1920px;
-}
-.h-700 {
-    height: 700px;
-}
 /*外边距*/
 .ml-4 {
     margin-left: 4px;
 }
-.ml-10 {
-    margin-left: 10px;
+.ml-12 {
+    margin-left: 12px;
 }
-.ml-15 {
-    margin-left: 15px;
+.ml-25 {
+    margin-left: 25px;
+}
+.ml-40 {
+    margin-left: 40px;
+}
+.mr-40 {
+    margin-right: 40px;
+}
+.ml-8{
+
 }
 .ml-20 {
     margin-left: 20px;
 }
+.ml-30 {
+    margin-left: 30px;
+}
+.ml-50 {
+    margin-left: 50px;
+}
+.mr-50 {
+    margin-right: 50px;
+}
 .mt-4 {
     margin-top: 4px;
+}
+.mr-12 {
+    margin-right: 12px;
+}
+.mr-30 {
+    margin-right: 30px;
 }
 .mt-10 {
     margin-top: 10px;
@@ -100,6 +115,9 @@
 }
 .mt-20 {
     margin-top: 20px;
+}
+.mt-24 {
+    margin-top: 24px;
 }
 .mt-30 {
     margin-top: 30px;
@@ -119,6 +137,9 @@
 .mr-20 {
     margin-right: 20px;
 }
+.mr-50 {
+    margin-right: 50px;
+}
 .mb-4 {
     margin-bottom: 4px;
 }
@@ -130,6 +151,12 @@
 }
 .mb-20 {
     margin-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-50 {
+    margin-top: 50px;
 }
 /*n内边距*/
 。pl-4 {
@@ -143,6 +170,9 @@
 }
 .pt-10 {
     padding-top: 10px;
+}
+.pt-25 {
+    padding-top: 25px;
 }
 .pr-4 {
     padding-right: 4px;
@@ -161,7 +191,7 @@
     border: 0;
 }
 .border-1 {
-    border: 1px solid #7B93A7;
+    border: 1px solid #DCDCDC;
 }
 .border-2 {
     border: 2px solid #7B93A7;
@@ -190,23 +220,6 @@
 .radius-50 {
     border-radius: 50%;
 }
-/*颜色*/
-.color-white {
-    color: #ffffff;
-}
-.color-black {
-    color: #000000;
-}
-.color-67A8F3 {
-    color: #67A8F3;
-}
-/*背景颜色*/
-.bg-00AFEF {
-    background-color: #00AFEF;
-}
-.bg-white {
-    background-color: #ffffff;
-}
 /*字体大小*/
 .text-12 {
     font-size: 12px;
@@ -218,11 +231,35 @@
 }
 .text-16 {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 22px;
+}
+.text-18 {
+    font-size: 18px;
+    line-height: 25px;
 }
 .text-20 {
     font-size: 20px;
     line-height: 28px;
+}
+.text-22 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.text-24 {
+    font-size: 24px;
+    line-height: 33px;
+}
+.text-40 {
+    font-size: 40px;
+    line-height: 60px;
+}
+.text-70 {
+    font-size: 70px;
+    line-height: 120px;
+}
+.text-60 {
+    font-size: 60px;
+    line-height: 90px;
 }
 
 

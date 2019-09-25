@@ -1,0 +1,40 @@
+/*颜色*/
+.color-white {
+    color: #ffffff;
+}
+.color-black {
+    color: #000000;
+}
+.color-67A8F3 {
+    color: #67A8F3;
+}
+.color-55595A {
+    color: #55595A;
+}
+.color-888888 {
+    color: #888888;
+}
+/*背景颜色*/
+.bg-00AFEF {
+    background-color: #00AFEF;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+.bg-EFEFEF {
+    background-color: #EFEFEF;
+}
+.bg-55595A {
+    background-color: #55595A;
+}
+.w-1200 {
+    width: 1200px;
+}
+.h-80 {
+    height: 80px;
+}
+.w-86 {
+    width: 86px;
+    height: 380px;
+}
+
